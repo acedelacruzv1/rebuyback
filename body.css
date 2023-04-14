@@ -1,0 +1,89 @@
+.buyback-option {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.body-top {
+  display: flex;
+  height: 150px;
+}
+.body-top-left {
+  width: 540px;
+  margin-left: 10px;
+}
+.customer-name-title, .item-list, .whereabout {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.customer-name {
+  width: 280px;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  margin-bottom: 8px;
+}
+textarea {
+  margin-left: 15px;
+  width: 509px;
+  height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  resize: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+select {
+  outline: none;
+  border: none;
+}
+.whereabout {
+  margin: 0;
+}
+.location {
+  display: flex;
+  margin: 0;
+}
+.body-top-right {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.due-date, .loan-payment{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.amount-1, .amount-2 {
+  width: 90px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.terms-condition {
+  font-weight: bold;
+  font-size: 15px;
+}
+.body-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.body-bottom-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buyback-terms-condition {
+  margin-bottom: 35px;
+}

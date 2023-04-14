@@ -1,0 +1,10 @@
+.header, .header-center, .header-right {
+  display: flex;
+  justify-content: space-between;
+}
+.header-center, .header-right, .header-left{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
